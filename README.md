@@ -92,3 +92,17 @@ These only exist as a stream of lounge check-in events. If the throughput of eve
 ![High-level architecture](Collinson.svg)
 
 
+### Funsies
+I created a little vite-built static UI to help with getting my head around how I might model data and what sort of calculations I might run. 
+
+The key thing was really understanding how dwell time impacted occupancy demand. 
+
+It's pretty raw, but if you wanted to have a look, switch to branch [data-visualisation](https://github.com/nzcoward/airport-lounge-occupancy/tree/playground/data-visualisation)
+
+```
+cd app
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173/ in your browser.
